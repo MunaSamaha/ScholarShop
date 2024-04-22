@@ -1,0 +1,204 @@
+ body {
+         background-color: #eeeeeeb5;
+         width: 100%;
+         overflow-x: hidden;
+    }
+    .shopping-container {
+         width: 960px;
+    margin: 0 auto;
+   margin-top: 100px;
+   
+    background-color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 100px;
+    border-radius: 1rem;
+    min-height: 304px;
+
+    }
+    .cart-wrapper-new {
+        display: flex;
+         flex-wrap: wrap;
+
+    }
+    
+    .cart-items {
+        width: 70%;
+      
+         padding: 26px;
+    }
+    .cart-summary {
+        width: 30%;
+    }
+    .shopping-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+        padding-bottom: 30px;
+    }
+    .number-of-items {
+        font-weight: bold;
+    }
+
+    .cart-items-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .cart-items-heading div {
+        width: 18%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .cart-items-heading div:last-child{
+        width: 10%;
+    }
+
+     .shopping-cart-wrapper {
+        display: flex;
+
+
+    }
+    .shopping-cart-items {
+       margin-top: 20px;
+        
+
+    }
+   .cart-product-items {
+    margin-top: 15px;
+   }
+   
+    .shopping-cart-wrapper .shopping-cart-items {
+        width: 70%;
+    }
+    .each-item-cart {
+        display: flex;
+      
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .each-item-cart div {
+        width: 18%;
+        text-align: center;
+    }
+    .each-item-cart div:last-child {
+        width: 10%;
+    }
+    .shopping-cart-wrapper .summary {
+        width: 30%;
+    }
+    .img-item img {
+        width: 80px;
+    }
+    .cart-summary {
+        background-color: #eeeeeeb5;
+    }
+    .inner-summary {
+        padding: 15px;
+    }
+    .heading-summary h1 {
+        font-size : 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    }
+    .summary-fields {
+        margin-top: 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+      padding-bottom: 15px;
+    }
+    .f-summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .coupon-code {
+        margin-top: 15px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .coupon-code input {
+        text-indent: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+    .checkout-btn-cart a {
+        width: 100%;
+        background-color: #E46A4B;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        display: block;
+        margin-top: 15px;
+    }
+    .delete-cart-item-page {
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .empty-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    @media (max-width: 991px){
+        .shopping-container {
+    width: 750px
+}
+    }
+    @media (max-width: 767px){
+        .shopping-container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+        .cart-summary {
+    width: 93%;
+    margin: 0 auto;
+}
+.cart-wrapper-new {
+    flex-direction: column;
+}
+.cart-items {
+    width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .img-item img {
+    width: 50px;
+}
+}
+@media (max-width: 400px){
+    .shopping-heading {
+        padding-left: 10px;
+    padding-right: 10px;
+    }
+    .shopping-heading h1 {
+        font-size: 20px;
+    }
+    .cart-items {
+    padding: 0px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.cart-items-heading div {
+  
+    font-size: 13px;
+}
+.each-item-cart div {
+
+    font-size: 13px;
+}
+.img-item img {
+    width: 30px;
+}
+}

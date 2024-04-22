@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.banner-section{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../../img/banner-image-contact.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-inner{
+    background-color: #1d425470;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    height: 50vh;
+}
+
+.banner-inner span{
+    color: #E46A4B;
+}
+
+.banner-inner h1{
+    font-size: 50px;
+}
+.banner-inner p{
+    padding: 30px 0;
+}
+
+.banner-btn{
+    height: auto;
+    width: 200px;
+    background-color: #E46A4B;
+    text-align: center;
+    font-weight: 500;
+    padding: 13px 0;
+    border: 1px solid #E46A4B;
+    cursor: pointer;
+    transition: 400ms ease;
+}
+.banner-btn:hover{
+    background-color: transparent;
+    border: 1px solid #E46A4B;
+    color: #E46A4B;
+}
+
+/* Shop  */
+.product-section{
+    height: auto;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-left , .product-right{
+    width: 50%;
+}
+.product-left img{
+    display: flex;
+    margin: 0 auto;
+}
+.delivery-note{
+    font-size: 16px;
+    padding: 5px 0;
+    color: #868686;
+}
+.delivery-note i{
+    color: #000;
+}
+.contact-btn{
+    height: auto;
+    width: 200px;
+    background-color: #E46A4B;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+/* review section  */
+.review-section{
+    height: auto;
+    width: 100%;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review-inner{
+    background-color: #1D4354;
+    padding: 30px;
+    width:420px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.review-inner h3{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.review-inner input, textarea{
+    padding: 5px 8px;
+    outline: none;
+    width: 100%;
+}
+.review-btn{
+    background-color: #E46A4B;
+    color: #fff;
+    padding: 8px 5px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+#alertText{
+    padding-bottom: 10px;
+    color: #fff;
+}
+@media (max-width: 430px){
+.review-inner{
+ 
+    width:100%;
+    }
+}
